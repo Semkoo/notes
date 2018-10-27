@@ -12,7 +12,11 @@ Regex to keep in mind
   </dd>
   
   <dt>Number's Only Input</dt>
-  <dd>Example: <pre> <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"></pre><br />
+  <dd>Example: 
+  ```javascript
+  <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
+  ```
+  <br />
   /[^0-9.]/g
   </dd>
   
