@@ -13,9 +13,9 @@ Regex to keep in mind
   
   <dt>Number's Only Input</dt>
   <dd>Example: 
-  ```
+  `
     this.value = this.value.replace(/(\..*)\./g, '$1');">
-  ```
+  `
   <br />
   /[^0-9.]/g
   </dd>
