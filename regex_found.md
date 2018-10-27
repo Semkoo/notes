@@ -2,9 +2,11 @@ Regex to keep in mind
 ------
 
 <dl>
-  <dt>Single Email(ex:someone@email.com)</dt>
+  <dt>Single Email</dt>
+  <dd>Example: someone@email.com</dd>
   <dd>/^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/i</dd>
 
-  <dt>Multiple Email (ex:someone@email.com,someone1@email.com)</dt>
+  <dt>Multiple Email</dt>
+  <dd>Example: someone@email.com,someone1@email.com</dd>  
   <dd></dd>
 </dl>
