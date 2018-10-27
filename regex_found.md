@@ -7,7 +7,7 @@ Regex to keep in mind
   /^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/i</dd>
 
   <dt>Multiple Email</dt>
-  <dd>Example: someone@email.com,someone1@email.com <br />
+  <dd>Example: someone@email.com,someone1@email.com,... <br />
   /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;,.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$/
   </dd>
 </dl>
