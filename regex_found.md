@@ -10,4 +10,10 @@ Regex to keep in mind
   <dd>Example: someone@email.com,someone1@email.com,... <br />
   /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;,.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$/
   </dd>
+  
+  <dt>Number's Only Input</dt>
+  <dd>Example: someone@email.com,someone1@email.com,... <br />
+  /[^0-9.]/g
+  </dd>
+  
 </dl>
