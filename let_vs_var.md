@@ -5,4 +5,5 @@ Let allows you to declare variables that are limited in scope to the block, stat
 
 Var declarations, wherever they occur, are processed before any code is executed. This is called hoisting, and is discussed further below.
 
-[Resource](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+[Resource - Let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+[Resource - Var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
