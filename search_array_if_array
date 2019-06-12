@@ -1,5 +1,8 @@
 https://stackoverflow.com/questions/16312528/check-if-an-array-contains-any-element-of-another-array-in-javascript
 
+var array1 = ['1', 'something', '2'];
+var array2 = ['something', '2'];
+
 /**
  * @description determine if an array contains one or more items from another array.
  * @param {array} haystack the array to search.
@@ -11,3 +14,6 @@ var findOne = function (haystack, arr) {
         return haystack.indexOf(v) >= 0;
     });
 };
+
+console.log(fineOne(array1, array2)) //true 
+
