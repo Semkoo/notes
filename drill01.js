@@ -16,5 +16,14 @@
 }
 
 let word = "meow";
+let word = ['bob', 'xguvv']
 
-console.log(isPalindrome(word))
+
+for(let str of words){
+ if(isPalindrome(str)){
+   console.log(`${str} is palindrome`);
+ }else{
+   console.log(`${str} is not palindrome `);
+ }
+}
+
