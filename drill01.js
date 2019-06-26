@@ -21,6 +21,15 @@
   //   return str === reverseArray ? true: false;
   return str === reverseArray;
 }
+ 
+isPalindromeOptimized = (str) =>{
+  for(let left=0, right = str.length -1; left < right; [left, right] = [left + 1, right -1]){
+    if(input[left] !== input[right]){
+      return false;
+    }
+  }
+  return true;
+}
 
 let word = "meow";
 let word = ['bob', 'xguvv']
